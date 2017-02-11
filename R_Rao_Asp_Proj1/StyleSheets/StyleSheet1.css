@@ -1,0 +1,30 @@
+﻿body {
+    
+}
+#lblMaster {
+    background-color:bisque;
+    color:red;
+    font-size:xx-large;
+    font-weight:bold;
+}
+
+.center {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#masterdiv {
+    height:200px;
+    background-color:brown;
+}
+
+.title {
+    font-size: larger;
+    font-weight: bold;
+    text-align:center;
+}
+
+#contentdiv {
+    height:600px;
+    text-align:center;
+}

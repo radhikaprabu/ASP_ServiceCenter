@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="R_Rao_Asp_Proj1.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Master Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="masterdiv">
+                <p class="center">
+                <asp:Label ID="lblMaster" runat="server" Text="(appsetting value)"></asp:Label>
+                </p>
+            
+                <asp:TextBox ID="txtDate" runat="server" BackColor="Brown" BorderStyle="None"></asp:TextBox>
+                <br />
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
